@@ -4,8 +4,6 @@ The class should have a method that can return the volume of the box.
 Create an object of the Box class and test the functionalities.
 */
 
-package ClassesAndObjects;
-
 public class Box {
 	private double width;
 	private double height;
@@ -24,7 +22,7 @@ public class Box {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Box box = new Box(10, 20, 30);
-		System.out.print("The volume of Box is "+box.getVolume());
+		System.out.print("The volume of Box is " + box.getVolume());
 	}
 
 }
