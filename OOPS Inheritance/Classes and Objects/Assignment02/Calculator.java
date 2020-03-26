@@ -7,6 +7,8 @@ This method should return num1 to the power num2.
 Hint: Use Math.pow(double,double) to calculate the power.
 */
 
+package ClassesAndObjects;
+
 public class Calculator {
 	public static int powerInt(int num1, int num2) {
 		return (int) Math.pow(num1, num2);
@@ -18,9 +20,8 @@ public class Calculator {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Calculator cal = new Calculator();
-		System.out.println(cal.powerInt(12, 3));
-		System.out.println(cal.powerDouble(1.5, 2));
+		System.out.println(powerInt(12, 3));
+		System.out.println(powerDouble(1.5, 2));
 	}
 
 }
