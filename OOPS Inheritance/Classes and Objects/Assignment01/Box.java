@@ -4,8 +4,6 @@ The class should have a method that can return the volume of the box.
 Create an object of the Box class and test the functionalities.
 */
 
-package ClassesAndObjects;
-
 public class Box {
 	private double width;
 	private double height;
