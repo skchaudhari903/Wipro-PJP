@@ -12,8 +12,6 @@ Getters and Setters for all the member variables
 In the main method, create a book object and print all details of the book (including the author details)
 */
 
-package EncapsulationAbstraction;
-
 class Author {
 	private String name, email;
 	private char gender;
@@ -29,26 +27,14 @@ class Author {
 		return name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
-
 	public String getEmail() {
 		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
 	}
 
 	public char getGender() {
 		return gender;
 	}
 
-	public void setGender(char gender) {
-		this.gender = gender;
-	}
-	
 	@Override
 	public String toString() {
 		return "Author [Name: " + name + ", Email: " + email + ", Gender: " + gender + "]";
@@ -94,7 +80,7 @@ class Book{
 	
 	@Override
 	public String toString() {
-		return "Book [Name: " + name + ", Author: " + author + ", Price: " + price + ", QtyInStock: " + qtyInStock + "]";
+		return "Book Name: " + name + ", Author: " + author + ", Price: " + price + ", QtyInStock: " + qtyInStock;
 	}
 }
 
