@@ -39,6 +39,7 @@ class Author {
 	public String toString() {
 		return "Author [Name: " + name + ", Email: " + email + ", Gender: " + gender + "]";
 	}
+
 }
 
 class Book{
@@ -82,6 +83,7 @@ class Book{
 	public String toString() {
 		return "Book Name: " + name + ", Author: " + author + ", Price: " + price + ", QtyInStock: " + qtyInStock;
 	}
+
 }
 
 public class Solution {
