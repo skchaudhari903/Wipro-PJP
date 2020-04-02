@@ -7,6 +7,8 @@ Create an instance of Animal class and invoke the eat and sleep methods using th
 Create an instance of Bird class and invoke the eat, sleep and fly methods using this object.
 */
 
+package Inheritance.Assignment01;
+
 class Animal {
 	void eat() {
 		System.out.println("Animal is eating");

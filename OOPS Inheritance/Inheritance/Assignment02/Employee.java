@@ -1,3 +1,5 @@
+package Inheritance.Assignment02;
+
 public class Employee extends Person {
 
 		private double annualSalary;

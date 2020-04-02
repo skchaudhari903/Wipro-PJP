@@ -9,36 +9,40 @@ Create a class called College Student that inherits from Student class. This cla
 Create objects of each of this classes, invoke and test the methods that are available in these classes.
 */
 
+package Inheritance.Assignment03;
+
 class Person {
-    String name;
+    String name, dateOfBirth;
     
-    Person(String name) {
+    Person(String name, String dateOfBirth) {
     	this.name = name;
+    	this.dateOfBirth = dateOfBirth;
     }
+    
+}
+
+class Teacher extends Person {
+	double salary;
+    String subject;
+
+    Teacher(String name, String dateOfBirth, String subject, double salary) {
+    	super(name, dateOfBirth);
+        this.subject = subject;
+        this.salary = salary;
+    }
+    void display() {
+        System.out.println("Teacher -" + " Name: " + name + ", Date of Birth: " + dateOfBirth + ", Subject: " + subject + ", Salary: " + salary);
+    }
+    
 }
 
 class Student extends Person {
 	int studentId;
 	
-    Student(String name, int studentId) {
-    	super(name);
+    Student(String name, String dateOfBirth, int studentId) {
+    	super(name, dateOfBirth);
     	this.studentId = studentId;
 	}
-}
-
-class Teacher extends Person {
-    String subject;
-    double salary;
-
-    Teacher(String name, String subject, double salary) {
-    	super(name);
-        this.subject = subject;
-        this.salary = salary;
-    }
-
-    void display() {
-        System.out.println("Name: " + name + ", Subject: " + subject + ", Salary: " + salary);
-    }
 
 }
 
@@ -46,14 +50,14 @@ class CollegeStudent extends Student {
 	String collegeName;
 	String year;
 
-    CollegeStudent(String name, int studentId, String year, String CollegeName) {
-    	super(name, studentId);
+    CollegeStudent(String name, String dateOfBirth, int studentId, String year, String CollegeName) {
+    	super(name, dateOfBirth, studentId);
         this.year = year;
         this.collegeName = CollegeName;
     }
     
     void display() {
-        System.out.println("Name: " + name + ", Student ID: " + studentId + ", Year: " + year + ", College: " + collegeName);
+        System.out.println("Student -" + " Name: " + name + ", Date of Birth: " + dateOfBirth + ", Student ID: " + studentId + ", Year: " + year + ", College: " + collegeName);
     }
 
 }
@@ -62,8 +66,8 @@ public class Solution {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Teacher teacher = new Teacher("Rakesh Shirsath", "Data Structures", 50000);
-        CollegeStudent collegeStudent = new CollegeStudent("Shubham", 112016410, "Forth", "Sandip Foundation's");
+		Teacher teacher = new Teacher(" Prof.Rakesh","27/12/1985", "Data Structures", 50000);
+        CollegeStudent collegeStudent = new CollegeStudent("Shubham","14/04/1998", 112016410, "Forth", "Sandip Foundation's");
         
         teacher.display();
         collegeStudent.display();

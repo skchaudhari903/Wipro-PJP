@@ -10,6 +10,8 @@ Your class should have the necessary constructors and getter/setter methods.
 Write another class called TestEmployee, containing a main method to fully test your class definition.
 */
 
+package Inheritance.Assignment02;
+
 public class Person {
 	private String name;
 	
