@@ -67,10 +67,10 @@ public class Solution {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Teacher teacher = new Teacher(" Prof.Rakesh","27/12/1985", "Data Structures", 50000);
-        CollegeStudent collegeStudent = new CollegeStudent("Shubham","14/04/1998", 112016410, "Forth", "Sandip Foundation's");
+		CollegeStudent collegeStudent = new CollegeStudent("Shubham","14/04/1998", 112016410, "Forth", "Sandip Foundation's");
         
-        teacher.display();
-        collegeStudent.display();
+		teacher.display();
+		collegeStudent.display();
 	}
 
 }
