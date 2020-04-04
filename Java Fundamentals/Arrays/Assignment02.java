@@ -1,7 +1,5 @@
 //Write a program to initialize an integer array and find the maximum and minimum value of the array.
 
-package Arrays;
-
 import java.util.Arrays;
 
 public class Assignment02 {

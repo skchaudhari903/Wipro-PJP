@@ -15,8 +15,6 @@ The given array is :
 The biggest number in the given array is 222
 */
 
-package Arrays;
-
 public class Assignment10 {
 
 	public static void main(String[] args) {

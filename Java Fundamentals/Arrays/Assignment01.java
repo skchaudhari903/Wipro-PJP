@@ -1,7 +1,5 @@
 //Write a program to initialize an integer array and print the sum and average of the array.
 
-package Arrays;
-
 import java.util.Arrays;
 
 public class Assignment01 {

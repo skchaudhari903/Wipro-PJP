@@ -7,8 +7,6 @@ Example 1) If the Array elements are  {1,4,34,56,7} and the search element is 90
 Example 2)If the Array elements are  {1,4,34,56,7} and the search element is 56, then the output expected is 3.
 */
 
-package Arrays;
-
 public class Assignment03 {
 
 	public static void main(String[] args) {

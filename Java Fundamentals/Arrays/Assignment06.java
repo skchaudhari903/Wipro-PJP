@@ -1,7 +1,5 @@
 //Write a program to initialize an array and print them in a sorted order.
 
-package Arrays;
-
 import java.util.Arrays;
 
 public class Assignment06 {

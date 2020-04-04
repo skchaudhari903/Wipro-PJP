@@ -13,8 +13,6 @@ Eg3) Array Elements - 1,6,4,7,9
 O/P:10
 */
 
-package Arrays;
-
 public class Assignment08 {
 
 	public static void main(String[] args) {

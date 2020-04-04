@@ -15,8 +15,6 @@ O/P:
   2 1
 */
 
-package Arrays;
-
 public class Assignment09 {
 
 	public static void main(String[] args) {
