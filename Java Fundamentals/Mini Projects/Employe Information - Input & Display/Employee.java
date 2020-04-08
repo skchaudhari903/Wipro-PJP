@@ -1,5 +1,3 @@
-package MiniProjects.Project01;
-
 public class Employee {
 
     private int emp_id[] = { 1001, 1002, 1003, 1004, 1005, 1006, 1007 };
