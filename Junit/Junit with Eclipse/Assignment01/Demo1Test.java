@@ -1,12 +1,15 @@
-import static org.junit.jupiter.api.Assertions.*;
+package JunitWithEclipse.Assignment01;
 
-import org.junit.jupiter.api.Test;
+import static org.junit.Assert.*;
 
-class Demo1Test {
+import org.junit.Test;
 
+public class Demo1Test {
+	
+	Demo1 demo1 = new Demo1();
+	
 	@Test
-	void testStringConcat() {
-		Demo1 demo1 = new Demo1();
+	public void testStringConcat() {
 		assertEquals("tomcat", demo1.stringConcat("tom", "cat"));
 	}
 
