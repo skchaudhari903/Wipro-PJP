@@ -1,0 +1,12 @@
+/*
+	CREATE TABLE studnt (
+	 	rollno	NUMBER(4) PRIMARY KEY,
+	 	name	VARCHAR2(30),
+	 	grade	VARCHAR2(4),
+	 	dob		DATE,
+	 	fee		NUMBER(6)
+	 );
+	 INSERT INTO studnt VALUES(101, 'Ajit', 'IV', '20-Nov-2001', 4000);
+	 INSERT INTO studnt VALUES(102, 'Sujit', 'III', '25-Dec-2000', 2000);
+	 INSERT INTO studnt VALUES(103, 'Bijoy', 'II', '15-Apr-2001', 3500);
+	 * */
