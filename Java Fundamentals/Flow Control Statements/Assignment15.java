@@ -17,7 +17,7 @@ public class Assignment15 {
 		int sum;
 		
 		for(sum = 0; num > 0; num = num/10) 
-	        sum = sum + (num % 10);
+	        	sum = sum + (num % 10);
 		
 		System.out.println(sum);
 	}
