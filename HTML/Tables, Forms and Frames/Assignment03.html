@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<style>
+table{
+	margin: 0% 35%;
+	
+	width: 50%;
+	border-spacing: 0px;
+	align: center;
+	display: inline-block;
+}
+th{
+	border-bottom: Solid 2px black;
+
+}
+td{
+	border: Solid 2px black;
+	border-top: 0px;
+	border-bottom: 0px;
+	padding: 7px 10px;
+}
+td#t01{
+	padding:7px 17%;
+	border-bottom: Solid 2px black;
+}
+
+input[type=text]{
+  width: 100%;
+}
+input[type=password]{
+  width: 100%;
+}
+input[type=submit]{
+  width: 100%;
+}
+input[type=reset]{
+  width: 100%;
+}
+</style>
+
+<table>
+		<tr><th>Online Registration</th><tr>
+		<tr>
+		<td>
+		<form>
+			Name :<input type="text" name="name">
+			<br><br>
+			Username :<input type="text" name="uname">
+			<br><br>
+			Password :<input type="password" name="pwd">
+			<br><br>
+			Confirm Password :<input type="password" name="cpwd">
+			<br><br>
+			User's Interest :
+			<input type="radio" name="Gender" values="male">Male
+			<input type="radio" name="Gender" values="female">Female
+			<input type="radio" name="Gender" values="others">Others
+			<br><br>
+			Address :<br>
+			<textarea rows="4" cols="50" name="address"></textarea>
+			<br><br>
+			Profession :<select name="occupation">
+  			<option value="">Select One</option>
+			<option value="">Student</option>
+			<option value="">Working Professional</option>
+  			</select>
+  			<br><br>
+ 			<tr>
+ 			<td id="t01">
+ 			<input type="submit" value="Submit Form" align="center"><br><br>
+ 			<input type="reset" value=" Reset Form" align="center">
+			</td>
+			</tr>
+		</form>
+		</td>
+		</tr>
+</table>
+
+</body>
+</html>
+</body>
+</html>
