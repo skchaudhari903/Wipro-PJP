@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>First Letter Uppercase</title>
+	</head>
+	<body>
+		<script language = "Javascript">
+			function firstLetterUpper(str){
+				let title = str.split(" ");
+				title.forEach((part, index) => {
+					part = part.charAt(0).toUpperCase() + part.substring(1, part.length);
+					title[index] = part;
+				});
+				title = title.join(" ");
+				return title;
+			}
+			
+			let str = prompt("Enter a string:");
+			document.write("Entered String : " + str + "<br>");
+			document.write("Updated String : " + firstLetterUpper(str));
+	</script>
+	</body>
+</html>

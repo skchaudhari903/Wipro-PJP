@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Reverse number</title>
+	</head>
+	<script language = "Javascript">
+			function reverseNum(){
+				let num = prompt("Enter Number : ");
+				document.write("Entered Number : " + num + "<br>");
+				num = num + "";
+				let revNum = num.split("").reverse().join("");
+
+				document.write("Reversed Number : " + revNum);
+			}
+	</script>
+	<body onload = "reverseNum()">
+	</body>
+</html>
