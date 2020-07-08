@@ -1,14 +1,13 @@
 <html>
     <head>
         <title>JavaScript Objects 3</title>
-		<script language = "Javascript">
-			function removeChars(text, number){
-				return text.substring(number);
-			}
-		</script>
     </head>
     <body>
 	<script>
+		function removeChars(text, number){
+				return text.substring(number);
+		}
+		
 		var txt = prompt("Enter Text :");
 		var num = Number(prompt("Remove How Many Characters?"));
 		document.write("Entered Text : " + txt + "<br>");

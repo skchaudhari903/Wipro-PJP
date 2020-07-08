@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>JavaScript Objects 7</title>
+    </head>
+    <body align="center">
+        <script language = "Javascript">
+			var today = new Date();
+			var dd = String(today.getDate()).padStart(2, "0");
+			var mm = String(today.getMonth() + 1).padStart(2, "0");
+			var yy = String(today.getFullYear()).substring(2);
+
+			today = dd + "/" + mm + "/" + yy;
+			alert("Today's Date : " + today);
+
+			var name = prompt("Enter your name : ");
+			alert("Hello " + name);
+
+			var nums = prompt("Enter two numbers (space seperated) :");
+
+			var sum = Number(nums.split(" ")[0]) + Number(nums.split(" ")[1]);
+
+			alert("Sum is : " + sum);
+		</script>
+    </body>
+</html>
