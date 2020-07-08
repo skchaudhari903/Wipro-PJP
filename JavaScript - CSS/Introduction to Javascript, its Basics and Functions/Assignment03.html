@@ -2,7 +2,8 @@
 	<head>
 		<title>Palindrome Check</title>
 	</head>
-	<script language = "Javascript">
+	<body onload = "checkPalindrome()">
+		<script language = "Javascript">
 			function checkPalindrome(){
 				let str = prompt("Enter String/Number : ");
 				if (str === str.split("").reverse().join("")) {
@@ -13,6 +14,5 @@
 				}
 			}
 	</script>
-	<body onload = "checkPalindrome()">
 	</body>
 </html>
