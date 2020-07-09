@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>JavaScript Validations 1</title>
+		<script language = "Javascript">
+			function validate() {
+				var memNum = document.getElementById("mem_num");
+				var passwd = document.getElementById("passwd");
+				if (memNum.value == null || memNum.value == "" || isNaN(memNum.value)) {
+					alert("Please Enter a number only!");
+					memNum.focus();
+					return false;
+				}
+				if (passwd.value == "" || passwd.value.length < 4) {
+					alert("Please enter a password longer than 4 chars!");
+					passwd.focus();
+					return false;
+				}
+			}
+		</script>
+    </head>
+    <body align="center">
+        <h1>Validate Member</h1>
+        <form onsubmit="return validate()">
+			<table align = "center">
+				<tr><td>Member Number : </td><td> <input type="text" id="mem_num" /></td></tr> 
+				<tr><td>Password : </td><td> <input type="password" id="passwd" /></td></tr> 
+				<tr><td><input type="submit" value="Submit" /></td></tr>
+			</table>
+        </form>    
+    </body>
+</html>
