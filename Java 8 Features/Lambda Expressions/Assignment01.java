@@ -3,15 +3,19 @@ Write a code to print all the prime numbers that are present in it, using lambda
 */
 
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Random;
 
 public class Assignment01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		ArrayList<Integer> al = new ArrayList<Integer>(Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 
-				15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25));
-		
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		Random random = new Random();
+		for(int i = 0; i < 25; i++){
+			al.add(random.nextInt(100));
+		}
+		System.out.println("Array : " +al.toString());
+		System.out.print("Prime Nos : ");
 		al.forEach(num -> {
 			boolean isPrime = true;
 			for (int i = 2; i <= (int) Math.sqrt(num); i++) {

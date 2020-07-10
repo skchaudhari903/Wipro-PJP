@@ -1,6 +1,6 @@
 /*Create an ArrayList al and add 10 different words. 
 Write a code to print all the Strings in reverse order, using lambda expression.
- */
+*/
 
 import java.util.ArrayList;
 

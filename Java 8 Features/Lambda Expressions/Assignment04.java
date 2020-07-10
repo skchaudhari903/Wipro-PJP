@@ -14,7 +14,6 @@ public class Assignment04 {
 		WordCount wc = str -> {
 			return (str.split(" ").length);
 		};
-		
 		System.out.println(wc.count("This is a test"));
 	}
 

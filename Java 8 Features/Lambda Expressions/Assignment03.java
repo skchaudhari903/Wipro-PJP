@@ -12,8 +12,7 @@ public class Assignment03 {
 		ArrayList<String> al = new ArrayList<String>(
 				Arrays.asList("Java", "Python", "C++", "C", "JavaScript", "Go", "Rust", "Bash", "Haskell", "Ruby"));
 		
-		al.forEach(name -> System.out.print((name.length() % 2 != 0) ? name + " " : ""));
-
+		al.forEach(word -> System.out.print((word.length() % 2 != 0) ? word + " " : ""));
 	}
 
 }
