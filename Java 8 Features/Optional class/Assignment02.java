@@ -9,7 +9,7 @@ public class Assignment02 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Assignment02 obj = new Assignment02();
-		Optional <String> n = Optional.ofNullable(obj.address);
+		Optional<String> n = Optional.ofNullable(obj.address);
 		
 		System.out.println(n.orElse(obj.default_address));
 	}

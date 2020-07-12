@@ -12,7 +12,7 @@ public class Assignment01 {
 		// TODO Auto-generated method stub
 		String names[] = new String[5];
 		
-		Optional <String> n = Optional.ofNullable(names[0]);
+		Optional<String> n = Optional.ofNullable(names[0]);
 		if(n.isPresent())
 			System.out.println(n.get());
 		else

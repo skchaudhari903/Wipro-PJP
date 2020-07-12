@@ -19,7 +19,7 @@ public class Assignment03 {
 		// TODO Auto-generated method stub
 		Employee e = new Employee();
 		e = null;
-		Optional <Employee> n = Optional.ofNullable(e);
+		Optional<Employee> n = Optional.ofNullable(e);
 		
 		System.out.println(n.orElseThrow(() -> new InvalidEmployeeException("InvalidEmployeeException has occured")));
 	}
