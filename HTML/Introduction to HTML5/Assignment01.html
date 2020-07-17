@@ -1,0 +1,77 @@
+<html>
+<head>
+<title>Visitors Information</title>
+</head>
+<body>
+<style>
+table{
+	margin: 10% 40%;
+	
+	width: 50%;
+	border-spacing: 0px;
+	align: center;
+	display: inline-block;
+}
+th{
+	border-bottom: Solid 2px black;
+
+}
+td{
+	border: Solid 2px black;
+	border-top: 0px;
+	border-bottom: 0px;
+	padding: 7px 10px;
+}
+td#t01{
+	padding:7px 20%;
+	border-bottom: Solid 2px black;
+}
+input[type=text]{
+  width: 100%;
+}
+input[type=submit]{
+  width: 100%;
+}
+input[type=reset]{
+  width: 100%;
+}
+
+select{
+  width: 100%;
+}
+
+</style>
+
+<table>
+		<tr><th>Visitors Information</th><tr>
+		<tr>
+		<td>
+		<form>
+			Email Address :<input type="text" name="email" placeholder="xyz@mail.com" />
+			<br><br>
+			User's Interest :
+				<input type="radio" name="User's Interest" values="research">Research
+				<input type="radio" name="User's Interest" values="purchase">Purchase
+			<br><br>
+			Occupation :
+				<select name="occupation">
+  					<option value="">Select One</option>
+  				</select>
+  			<br><br>
+ 			Want us to send you junk mail :<br>
+				<input type="radio" name="junk mail" values="yes">Absolutely
+				<input type="radio" name="junk mail" values="no">No way man
+ 			<br><br>
+ 			<tr>
+ 			<td id="t01">
+ 			<input type="submit" value="Submit Form" align="center">
+ 			<input type="reset" value=" Reset Form" align="center">
+			</td>
+			</tr>
+		</form>
+		</td>
+		</tr>
+</table>
+
+</body>
+</html>
