@@ -1,53 +1,51 @@
 <html>
-<head>
-<title>Visitors Information</title>
-</head>
-<body>
-<style>
-table{
-	margin: 10% 40%;
-	
-	width: 50%;
-	border-spacing: 0px;
-	align: center;
-	display: inline-block;
-}
-th{
-	border-bottom: Solid 2px black;
+	<head>
+		<title>Visitors Information</title>
+	</head>
+	<body>
+		<style>
+			table{
+				margin: 10% 40%;
+				
+				width: 50%;
+				border-spacing: 0px;
+				align: center;
+				display: inline-block;
+			}
+			th{
+				border-bottom: Solid 2px black;
 
-}
-td{
-	border: Solid 2px black;
-	border-top: 0px;
-	border-bottom: 0px;
-	padding: 7px 10px;
-}
-td#t01{
-	padding:7px 20%;
-	border-bottom: Solid 2px black;
-}
-input[type=text]{
-  width: 100%;
-}
-input[type=submit]{
-  width: 100%;
-}
-input[type=reset]{
-  width: 100%;
-}
+			}
+			td{
+				border: Solid 2px black;
+				border-top: 0px;
+				border-bottom: 0px;
+				padding: 7px 10px;
+			}
+			td#t01{
+				padding:7px 20%;
+				border-bottom: Solid 2px black;
+			}
+			input[type=text]{
+			  width: 100%;
+			}
+			input[type=submit]{
+			  width: 100%;
+			}
+			input[type=reset]{
+			  width: 100%;
+			}
 
-select{
-  width: 100%;
-}
-
-</style>
-
-<table>
+			select{
+			  width: 100%;
+			}
+		</style>
+	<table>
 		<tr><th>Visitors Information</th><tr>
 		<tr>
 		<td>
 		<form>
-			Email Address :<input type="text" name="email" placeholder="xyz@mail.com" />
+			Email Address :<input type="text" name="email" placeholder="xyz@mail.com" required/>
 			<br><br>
 			User's Interest :
 				<input type="radio" name="User's Interest" values="research">Research
@@ -71,7 +69,6 @@ select{
 		</form>
 		</td>
 		</tr>
-</table>
-
-</body>
+	</table>
+	</body>
 </html>
