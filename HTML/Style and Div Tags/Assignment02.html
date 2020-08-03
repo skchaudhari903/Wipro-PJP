@@ -1,0 +1,59 @@
+<html>
+    <head>
+       <title>Div Forms</title>
+    </head>
+    <body align="center">
+        <div>
+            <table align="center">
+                <tr>
+                    <th>Visitors Information</th>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>
+                        <br />
+                        <form>
+                            Email Address :
+                            <input type="email" name="email" id="email" /><br />
+                            User's Interest :<br />
+                            Research<input type="checkbox" name="interest" value="research" />
+                            Purchase <input type="checkbox" name="interest" value="purchase" /><br />
+                            Occupation :
+                            <select name="occupation" value="select-one" id="occupation">
+                                <option>Select One</option> </select>
+								<br />
+                            Want us to send you junk mails? <br />
+                            Absolutely<input type="radio" name="send-mail" value="yes" />
+                            No Way Man<input type="radio" name="send-mail" value="no" />
+                            <br />
+                            <input type="submit" value="Submit" />
+                            <input type="reset" value="Reset" />
+                        </form>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br />
+        <div>
+            <h4>Register Here!</h4>
+            <form>
+                Username :<input type="text" name="uname" required autofocus /><br />
+                Password :<input type="password" name="pwd" required /><br />
+                Confirm :<input type="password" name="pwd2" required /><br />
+                Name :<input type="text" name="name" /><br />
+                Gender :</label><br />
+                Male <input type="radio" name="gender" value="M" />
+                Female <input type="radio" name="gender" value="F" />
+                Other <input type="radio" name="gender" value="O" /><br />
+                Address :<br /><textarea name="address"></textarea><br />
+				Profession :
+                    <select name="profession">
+                        <option value="Student">Student</option>
+                        <option value="Working Proffessional">Working Proffessional</option>
+                        <option value="Bussiness">Bussiness</option>
+                    </select>
+                <input type="submit" />
+            </form>
+        </div>
+    </body>
+</html>
