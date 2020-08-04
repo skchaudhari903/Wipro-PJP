@@ -1,3 +1,7 @@
+/*Write a JavaScript code which creates a Java HashMap object, store 5 country and capital names as key and value.
+Iterate them with for loop and display the elements one by one.
+*/
+
 var HashMap = Java.type("java.util.HashMap");
 var hm = new HashMap();
 hm.put("India", "New Delhi");

@@ -1,3 +1,7 @@
+/*Write a JavaScript function which accepts a number and returns true if it is a prime number else returns false.
+Save the code as Demo.js, invoke the function from a Java program and display the result. 
+*/
+
 import javax.script.*;
 import java.io.FileReader;
 
