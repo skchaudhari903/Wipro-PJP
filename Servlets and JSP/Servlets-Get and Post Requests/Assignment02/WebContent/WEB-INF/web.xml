@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>A Small Web Application</display-name>
+
+	<servlet>
+		<servlet-name>Assignment2</servlet-name>
+		<servlet-class>com.w3epic.wiprotraining.assignment1.Assignment2</servlet-class>
+
+		<!-- For ServletConfig -->
+		<init-param>
+			<param-name>driverName</param-name>
+			<param-value>oracle.jdbc.driver.OracleDriver</param-value>
+		</init-param>
+
+		<init-param>
+			<param-name>urlName</param-name>
+			<param-value>jdbc:oracle:thin:@localhost:1521:xe</param-value>
+		</init-param>
+	</servlet>
+
+	<!-- For ServletContext -->
+	<context-param>
+		<param-name>Email</param-name>
+		<param-value>webmaster@example.com</param-value>
+	</context-param>
+
+	<servlet-mapping>
+		<servlet-name>Assignment2</servlet-name>
+		<url-pattern>/showDetails.arp</url-pattern>
+	</servlet-mapping>
+
+</web-app>
