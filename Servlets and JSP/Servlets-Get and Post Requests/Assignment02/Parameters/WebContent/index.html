@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Parameters</title>
+<style type="text/css">
+body {
+	text-align: center;
+}
+
+input {
+	background: black;
+	color: white;
+}
+</style>
+</head>
+<body>
+	<h3>Using Get Method</h3>
+	<form action="login" method="get">
+		<label>Name <input type="text" name="name" required /></label><br>
+		<label>Password <input type="password" name="password"
+			required /></label><br> <label>Age <input type="number" min="1"
+			name="age" max="125" required /></label><br> <label>Date <input
+			type="date" name="date" required /></label><br> <input type="submit" /><br>
+	</form>
+
+	<h3>Using Post Method</h3>
+	<form action="login" method="post">
+		<label>Name <input type="text" name="name" required /></label><br>
+		<label>Password <input type="password" name="password"
+			required /></label><br> <label>Age <input type="number" min="1"
+			name="age" max="125" required /></label><br> <label>Date <input
+			type="date" name="date" required /></label><br> <input type="submit" /><br>
+	</form>
+</body>
+</html>
