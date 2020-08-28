@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="US-ASCII">
+<title>Employee Details</title>
+</head>
+<style>
+body {
+	text-align: center;
+}
+
+input {
+	background: black;
+	color: white;
+}
+</style>
+<body>
+	<h2>Enter Employee Details</h2>
+	<form action="salary.jsp" method="get">
+		<label>Enter ID : <input type="number" name="id" min="1" max="999" required></label><br> 
+		<label>Enter Name : <input type="text" name="empName" required></label><br>
+		<label>Enter Base : <input type="number" name="base" min="1" max="99999" required> </label><br>
+		<label>Enter Bonus : <input type="number" name="bonus" min="1" max="9999" required></label><br>
+		<input type="submit">
+	</form>
+</body>
+</html>
