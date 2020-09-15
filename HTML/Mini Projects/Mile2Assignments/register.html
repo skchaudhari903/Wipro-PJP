@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h3>Registration Form</h3>
+        <form onsubmit="return validateDetails()">
+            <label>User Id : <input type="text" id="userID" /></label><br />
+            <label>Password : <input type="password" id="passwd" /></label><br />
+            <label>Date Of Birth : <input type="date" id="dob" /></label><br />
+            <label>Gender : </label>
+            <label>Male <input type="radio" name="gender" value="M" /></label>
+            <label>Female <input type="radio" name="gender" value="F" /></label><br />
+            <label
+                >State :
+                <select name="profession">
+                    <option value="wb">Maharastra</option>
+                    <option value="kn">Karnataka</option>
+                    <option value="mh">Madhya Pradesh</option>
+                </select>
+            </label>
+            <br />
+            <label>Contact Number : <input type="number" id="contact" /></label><br />
+            <label>Address : <textarea name="address" cols="30" rows="4"></textarea></label><br />
+            <input type="submit" value="submit" /> <input type="reset" value="reset" />
+        </form>
+        <script src="validate.js"></script>
+    </body>
+</html>
