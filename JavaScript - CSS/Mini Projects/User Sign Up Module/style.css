@@ -1,0 +1,46 @@
+body {
+    background-color: purple;
+}
+
+form {
+    background-color: gray;
+    font-family: Arial, Halvetica, sans-serif;
+    border: 5px solid royalblue;
+    padding: 20px;
+    color: black;
+}
+
+table {
+    text-align: center;
+}
+
+input {
+    background-color: black;
+    color: white;
+    margin: 5px;
+}
+
+input[type="submit"] {
+    background-color: blueviolet;
+}
+
+input:hover,
+input:focus {
+    box-shadow: 1px 5px royalblue;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: auto;
+    margin: 10px;
+    color: white;
+}
+
+.time {
+    color: white;
+    margin: 10px;
+    text-align: right;
+    line-height: 1.5em;
+}

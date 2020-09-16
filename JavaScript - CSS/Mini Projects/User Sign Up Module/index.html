@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="ISO-8859-1" />
+        <title>Sign Up</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script type="text/javascript" src="validate.js"></script>
+    </head>
+    <body onload="startTime();myTimeout();">
+        <div class="container">
+            <div class="time">
+                <b
+                    ><div id="date"></div>
+                    <div id="clock"></div
+                ></b>
+            </div>
+            <form name="myform" onsubmit="return pageValidation();">
+                <table align="center">
+                    <tr>
+                        <th><h1>Registration Form</h1></th>
+                    </tr>
+
+                    <tr>
+                        <td>First Name</td>
+                        <td>
+                            <input type="text" name="fname" required="required" /><br />
+                            <i><span id="error-fname" style="color: red;"></span></i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Last Name</td>
+                        <td>
+                            <input type="text" name="lname" required="required" /><br />
+                            <i><span id="error-lname" style="color: red;"></span></i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Password</td>
+                        <td>
+                            <input type="password" name="pass1" id="pass1" required="required" /><br />
+                            <i><span id="error-pass1" style="color: red;"></span></i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Confirm Password</td>
+                        <td>
+                            <input type="password" name="pass2" id="pass2" required="required" /><br />
+                            <i><span id="error-pass2" style="color: red;"></span></i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            Male<input type="radio" name="gender" required="required" /> Female<input
+                                type="radio"
+                                name="gender"
+                                required="required"
+                            />
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Mobile Number</td>
+                        <td>
+                            <input type="tel" maxlength="12" name="mobile" required="required" /><br />
+                            <i><span id="error-mob" style="color: red;"></span></i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>DOB</td>
+                        <td>
+                            <input name="dob" required="required" placeholder="DD-MM-YYYY" />
+                            <i><span id="error-dob" style="color: red;"></span></i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Email Address</td>
+                        <td>
+                            <input type="email" name="email" required="required" /><br />
+                            <i><span id="error-email" style="color: red;"></span></i>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><br /><input type="submit" class="sub" value="Submit" onclick="myTimeout()" /></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
