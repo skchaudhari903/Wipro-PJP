@@ -1,0 +1,35 @@
+.row {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.container {
+    text-align: center;
+}
+
+#btn {
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+h2 {
+    padding: 30px;
+    text-align: center;
+    word-wrap: none;
+}
+h3 {
+    padding-top: 30px;
+    text-align: left;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.logo {
+    margin: 20px;
+    border: 1px solid royalblue;
+    height: auto;
+    border-radius: 20%;
+}
