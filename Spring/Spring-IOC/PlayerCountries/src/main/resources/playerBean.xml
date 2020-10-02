@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context.xsd">
+	<bean id="country1" class="com.wipro.Country">
+		<property name="countryId" value="C001"></property>
+		<property name="countryName" value="India"></property>
+	</bean>
+	<bean id="country2" class="com.wipro.Country">
+		<property name="countryId" value="C002"></property>
+		<property name="countryName" value="Australia"></property>
+	</bean>
+	<bean id="player1" class="com.wipro.Player">
+		<property name="playerId" value="P001"></property>
+		<property name="playerName" value="Sachin Tendulkar"></property>
+		<property name="country" ref="country1"></property>
+	</bean>
+	<bean id="player2" class="com.wipro.Player">
+		<property name="playerId" value="P002"></property>
+		<property name="playerName" value="Sourav Ganguly"></property>
+		<property name="country" ref="country1"></property>
+	</bean>
+	<bean id="player3" class="com.wipro.Player">
+		<property name="playerId" value="P003"></property>
+		<property name="playerName" value="Mahendra Singh Dhoni"></property>
+		<property name="country" ref="country1"></property>
+	</bean>
+	<bean id="player4" class="com.wipro.Player">
+		<property name="playerId" value="P004"></property>
+		<property name="playerName" value="Adam Gilchrist"></property>
+		<property name="country" ref="country2"></property>
+	</bean>
+	<bean id="player5" class="com.wipro.Player">
+		<property name="playerId" value="P005"></property>
+		<property name="playerName" value="Ricky Ponting"></property>
+		<property name="country" ref="country2"></property>
+	</bean>
+</beans>
