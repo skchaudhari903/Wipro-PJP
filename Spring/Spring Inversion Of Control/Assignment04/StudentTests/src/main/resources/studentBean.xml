@@ -19,12 +19,12 @@ http://www.springframework.org/schema/context/spring-context.xsd">
 	</bean>
 	<bean id="student1" class="com.wipro.Student">
 		<property name="studentId" value="S001"></property>
-		<property name="studentName" value="Abhsihek Kumar Keshri"></property>
+		<property name="studentName" value="Shubham Chaudhary"></property>
 		<property name="studentTest" ref="test1"></property>
 	</bean>
 	<bean id="student2" class="com.wipro.Student">
 		<property name="studentId" value="S002"></property>
-		<property name="studentName" value="2KAbhishek"></property>
+		<property name="studentName" value="skchaudhari"></property>
 		<property name="studentTest" ref="test2"></property>
 	</bean>
 
