@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+div{
+background-color: pink;
+text-align:center;
+
+}
+span{
+color:red;
+}
+#g1{
+color:black;
+}
+
+</style>
+<script>
+function valid(){
+	var a=document.getElementById("iid").value;
+	var b=document.getElementById("inam").value;
+	var c=document.getElementById("na").value;
+	var d=document.getElementById("ma").value;
+	var e=document.getElementById("bi").value;
+	var flag=0;
+	if(a==""){
+		document.getElementById("a1").innerHTML="Required field!";
+		flag=1;
+		
+	}
+	if(b==""){
+		document.getElementById("b1").innerHTML="Required field!";
+		flag=1;
+	}
+	if(c==""){
+		document.getElementById("c1").innerHTML="Required field!";
+		flag=1;
+		
+	}
+	if(d==""){
+		document.getElementById("d1").innerHTML="Required field!";
+		flag=1;
+	}
+	if(e==""){
+		document.getElementById("e1").innerHTML="Required field!";
+		flag=1;
+	}
+	if(flag==1){
+		document.getElementById("f1").innerHTML="Required Data Missing!";
+		document.getElementById("g1").innerHTML="Enter and Resubmit";
+	
+	return false;
+	}
+	return true;
+}
+
+
+
+
+</script>
+</head>
+<body>
+<div>
+<form action="AucServ">
+<h1>Welcome to AP Auctions.Please Enter Bid.</h1>
+<br>
+<h2><span id="f1"></span>
+<span id="g1"></span></h2>
+<br>
+<br>
+<span id="a1"></span>Item ID:<input type="text" name="itemid" id="iid"><br>
+<span id="b1"></span>Item Name:<input type="text" name="iname" id="inam"><br>
+<span id="c1"></span>Your Name:<input type="text" name="uname" id="na"><br>
+<span id="d1"></span>Your Email Address:<input type="email" name="mail" id="ma"><br>
+<span id="e1"></span>Amount Bid:<input type="text" name="bid" id="bi"><br>
+Auto-Increment bid to match other bidders?:<input type="checkbox" name="chk" value="true">
+<br>
+<input type="submit" value="Submit Bid" onclick="return valid()">
+
+</form>
+</div>
+</body>
+</html>
