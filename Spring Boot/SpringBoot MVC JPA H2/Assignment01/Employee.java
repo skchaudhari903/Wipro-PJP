@@ -1,4 +1,4 @@
-package com.abhishek.model;
+package com.wipro.model;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;

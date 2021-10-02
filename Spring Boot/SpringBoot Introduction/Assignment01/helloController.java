@@ -1,4 +1,4 @@
-package com.abhishek.springboot;
+package com.wipro.springboot;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

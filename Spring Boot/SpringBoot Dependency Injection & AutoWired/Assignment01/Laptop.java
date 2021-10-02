@@ -1,4 +1,4 @@
-package com.abhishek.springboot;
+package com.wipro.springboot;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
