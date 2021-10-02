@@ -1,4 +1,4 @@
-package com.abhishek.springboot;
+package com.wipro.springboot;
 
 import javax.validation.Valid;
 import javax.validation.constraints.NotEmpty;

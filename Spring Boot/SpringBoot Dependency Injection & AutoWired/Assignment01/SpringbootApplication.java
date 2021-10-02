@@ -1,4 +1,4 @@
-package com.abhishek.springboot;
+package com.wipro.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
